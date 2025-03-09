@@ -1,7 +1,7 @@
 {
-  "name": "ᴀɴɪᴇ x ᴇɪᴄᴀ ᴍᴜꜱɪᴄ ʙᴏᴛ",
+  "name": "Sargam Music",
   "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-  "logo": "https://telegra.ph/file/b37803a767b15e939513d.png",
+  "logo": "https://files.catbox.moe/2vhr2l.jpg",
   "keywords": [
   "python3",
   "telegram",
@@ -39,12 +39,12 @@
     },
    "SUPPORT_CHANNEL": {
       "description": "Add channel link",
-      "value": "https://t.me/SuperBanSBots",
+      "value": "https://t.me/TheMenXD",
       "required": true
     },
       "SUPPORT_CHAT": {
       "description": "Add Chat group & support group Link",
-      "value": "https://t.me/+jCS-YsVBVEE3NjQ1",
+      "value": "https://t.me/II_NIGHT_HIGHS_II",
       "required": true
     },
     "STRING_SESSION": {
@@ -64,7 +64,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/AbhiModszYT/AnieXEricaMusic",
+      "value": "https://github.com/URANIUM11011/Sargam-Music-",
       "required": false
     },
     "UPSTREAM_BRANCH": {
@@ -78,23 +78,23 @@
       "required": false
     },
     "START_IMG_URL": {
-      "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-      "value": "https://telegra.ph/file/b37803a767b15e939513d.png",
+      "description": "Your Bot Start Time Pic tgm link.",
+      "value": "https://files.catbox.moe/2vhr2l.jpg",
       "required": false
     },
     "PING_IMG_URL": {
-      "description": "Your Bot Ping Check Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-      "value": "https://telegra.ph/file/b37803a767b15e939513d.png",
+      "description": "Your Bot Ping Check Time Pic tgm link.",
+      "value": "https://files.catbox.moe/2vhr2l.jpg",
       "required": false
     },
     "STATS_IMG_URL": {
-      "description": "Your Bot Stats Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-      "value": "https://telegra.ph/file/b37803a767b15e939513d.png",
+      "description": "Your Bot Stats Time Pic tgm link.",
+      "value": "https://files.catbox.moe/2vhr2l.jpg",
       "required": false
     },
     "LOGGER_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-      "value": "-1001971806089",
+      "value": "-1001906981230",
       "required": true
     }
   },
