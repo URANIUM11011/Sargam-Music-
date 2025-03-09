@@ -31,7 +31,6 @@ async def play_logs(message, streamtype):
                 owner_AMBOT_id = admin.user.id if hasattr(admin.user, 'id') else "Is_Hide / Deleted"
         logger_text = f"""
 <b>{app.mention} ᴘʟᴀʏ ʟᴏɢ</b>
- 
 <b>⌯ ᴄʜᴀᴛ ɴᴀᴍᴇ :</b>{message.chat.title}
 <b>⌯ ᴄʜᴀᴛ ɪᴅ :</b> <code>{message.chat.id}</code>
 <b>⌯ ɴᴀᴍᴇ :</b> {message.from_user.mention}
