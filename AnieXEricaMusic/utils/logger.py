@@ -31,18 +31,17 @@ async def play_logs(message, streamtype):
                 owner_AMBOT_id = admin.user.id if hasattr(admin.user, 'id') else "Is_Hide / Deleted"
         logger_text = f"""
 <b>{app.mention} ᴘʟᴀʏ ʟᴏɢ</b>
-╔════❰𝐏𝐋𝐀𝐘𝐈𝐍𝐆❱═══❍⊱❁۪۪
-<b>◈ 𝐂𝐡𝐚𝐭 ➪ </b>{message.chat.title}
-<b>◈ 𝐂𝐡𝐚𝐭 𝐈𝐝 ➪ </b> <code>{message.chat.id}</code>
-<b>◈ 𝐔𝐬𝐞𝐫 ➪ </b> {message.from_user.mention}
-<b>◈ 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 ➪ </b> @{message.from_user.username}
-<b>◈ 𝐈𝐝 ➪ </b> <code>{message.from_user.id}</code>
-<b>◈ 𝐂𝐡𝐚𝐭 𝐋𝐢𝐧𝐤 ➪ </b> @{message.chat.username}
-<b>◈ 𝐂𝗵𝗮𝘁 𝗠𝗲𝗺𝗯𝗲𝗿𝘀 ➪ </b> <code>{chat_members}</code>
-<b>◈ 𝐂𝗵𝗮𝘁 𝗢𝘄𝗻𝗲𝗿 ➪ </b> {owner_AMBOT} 𝐈𝐝 ➪<code>{owner_AMBOT_id}</code>
-<b>◈ 𝐒𝐞𝐚𝐫𝐜𝐡𝐞𝐝 ➪ </b> <code>{message.text.split(None, 1)[1]}</code>
-<b>◈ 𝐁𝐲 ➪ </b> {streamtype}
-╚═══❰ #𝐍𝐞𝐰𝐒𝐨𝐧𝐠 ❱══❍⊱❁۪۪"""
+ 
+<b>⌯ ᴄʜᴀᴛ ɴᴀᴍᴇ :</b>{message.chat.title}
+<b>⌯ ᴄʜᴀᴛ ɪᴅ :</b> <code>{message.chat.id}</code>
+<b>⌯ ɴᴀᴍᴇ :</b> {message.from_user.mention}
+<b>⌯ ᴜsᴇʀɴᴀᴍᴇ  :</b> @{message.from_user.username}
+<b>⌯ ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>
+<b>⌯ ᴄʜᴀᴛ ʟɪɴᴋ :</b> @{message.chat.username}
+<b>⌯ ᴄʜᴀᴛ ᴍᴇᴍʙᴇʀs :</b> <code>{chat_members}</code>
+<b>⌯ ᴄʜᴀᴛ ᴏᴡɴᴇʀ  :</b> {owner_AMBOT} 𝐈𝐝 ➪<code>{owner_AMBOT_id}</code>
+<b>⌯ sᴇᴀʀᴄʜᴇᴅ :</b> <code>{message.text.split(None, 1)[1]}</code>
+<b>⌯ sᴛʀᴇᴀᴍᴛʏᴘᴇ :</b> {streamtype}
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
